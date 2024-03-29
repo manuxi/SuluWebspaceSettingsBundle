@@ -1,0 +1,7 @@
+sulu_webspace_settings_api:
+    type: annotation
+    prefix: /admin/api
+    resource: Manuxi\SuluWebspaceSettingsBundle\Controller\Admin\WebspaceSettingsController
+    name_prefix: sulu_webspace_settings.
+    options:
+        expose: true

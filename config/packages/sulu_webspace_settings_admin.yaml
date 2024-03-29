@@ -1,0 +1,5 @@
+sulu_admin:
+    resources:
+        webspace_settings:
+            routes:
+                detail: 'sulu_webspace_settings.get_webspace_settings'

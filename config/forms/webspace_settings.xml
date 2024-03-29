@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://schemas.sulu.io/template/template"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/form-1.0.xsd"
+>
+    <key>webspace_settings</key>
+
+    <properties>
+        <section name="webspace-settings">
+            <meta>
+                <title>webspace_settings.title.global</title>
+            </meta>
+            <properties>
+                <property name="languageSwitch" type="checkbox" colspan="3">
+                    <meta>
+                        <title>webspace_settings.properties.language_switch</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="false"/>
+                    </params>
+                </property>
+            </properties>
+        </section>
+
+        <section name="webspace-settings-search-results">
+            <meta>
+                <title>webspace_settings.search.title</title>
+            </meta>
+            <properties>
+                <property name="showSearch" type="checkbox" colspan="3">
+                    <meta>
+                        <title>webspace_settings.properties.show_search</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="false"/>
+                    </params>
+                </property>
+
+                <property name="toggleSearchHeader" type="checkbox" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.toggle_header</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="true"/>
+                    </params>
+                </property>
+
+                <property name="toggleSearchHero" type="checkbox" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.toggle_hero</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="true"/>
+                    </params>
+                </property>
+
+                <property name="toggleSearchBreadcrumbs" type="checkbox" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.toggle_breadcrumbs</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="true"/>
+                    </params>
+                </property>
+
+                <property name="maxSearchResults" type="number" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.search_results_max</title>
+                    </meta>
+                    <params>
+                        <param name="min" value="5"/>
+                        <param name="max" value="60"/>
+                        <param name="step" value="1"/>
+                        <param name="multiple_of" value="1"/>
+                    </params>
+                </property>
+
+                <property name="toggleSearchFormUnderResults" type="checkbox" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.toggle_form_under_results</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="true"/>
+                    </params>
+                </property>
+
+                <property name="highlightSearchResults" type="checkbox" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.search_results_highlight</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="false"/>
+                    </params>
+                </property>
+
+                <property name="toggleSearchFormShowQuery" type="checkbox" colspan="3" visibleCondition="__parent.showSearch">
+                    <meta>
+                        <title>webspace_settings.properties.toggle_form_show_query</title>
+                    </meta>
+                    <params>
+                        <param name="type" value="toggler"/>
+                        <param name="default_value" value="false"/>
+                    </params>
+                </property>
+            </properties>
+        </section>
+
+    </properties>
+</form>

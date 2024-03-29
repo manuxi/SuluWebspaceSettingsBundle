@@ -1,0 +1,14 @@
+webspace_settings:
+    title:
+        global: "Settings"
+        tab: "Basic Settings"
+    properties:
+        language_switch: "Show language switcher"
+        show_search: "Show Search"
+        toggle_header: "Toggle Header"
+        toggle_hero: "Toggle Default Hero"
+        toggle_breadcrumbs: "Toggle Breadcrumbs"
+        search_results_max: "Max. Results"
+        search_results_highlight: "Highlight Results"
+        toggle_form_under_results: "Search form under results?"
+        toggle_form_show_query: "Fill search field again?"

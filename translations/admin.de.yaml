@@ -1,0 +1,17 @@
+webspace_settings:
+    title:
+        global: "Webspace-Einstellungen"
+        tab: "Webspace-Einstellungen"
+    search:
+        title: "Einstellungen Suche"
+    properties:
+        language_switch: "Sprachauswahl anzeigen"
+        show_search: "Suche anzeigen"
+        toggle_header: "Header anzeigen"
+        toggle_hero: "Standard Hero anzeigen"
+        toggle_breadcrumbs: "Breadcrumbs anzeigen"
+        search_results_max: "Max. Anzahl Ergebnisse"
+        search_results_highlight: "Suchbegriff hervorheben?"
+        toggle_form_under_results: "Suchformular unter Ergebnissen?"
+        toggle_form_show_query: "Suchfeld erneut füllen?"
+
